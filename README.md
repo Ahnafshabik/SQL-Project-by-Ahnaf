@@ -7,8 +7,26 @@ Extracting insights and patterns
 Identifying trends and opportunities
 
 ## Process
-### (your step 1)
-### (your step 2)
+
+Step 1: Data Extraction
+- Load the data from CSV files into a PostgreSQL database.
+
+Step 2: Data Cleaning
+- Identify and address issues like missing values and data inconsistencies.
+
+Step 3: Data Transformation
+- Perform operations like aggregations and joins to derive insights.
+
+Step 4: Data Analysis
+- Use SQL queries to answer specific questions and extract insights.
+
+Step 5: Quality Assurance
+- Verify data accuracy, test query performance, and review security measures.
+
+Step 6: Presentation
+- Compile results and insights into a concise and visually appealing format.
+
+By following this step-by-step process, we were able to effectively transform and analyze the e-commerce data, leading to valuable insights and actionable recommendations.
 
 ## Results
 During the analysis of the e-commerce data, several insights were gained and questions were answered:
