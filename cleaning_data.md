@@ -16,8 +16,8 @@ By addressing these data issues, we can ensure the accuracy and reliability of t
 
 
 
-Queries:
-Below, provide the SQL queries you used to clean your data.
+Queries: Provide the SQL queries you used to clean your data.
+
 
 Some codes are given below :
 
@@ -31,21 +31,21 @@ SET city = NULL
 WHERE city = 'not available in demo dataset';
 
 3. By deleting some irrelevant and missing values columns:
-   Here is the generic code, as I deleted a couple of columns
-   ALTER TABLE table_name
-   DROP COLUMN column_name;
+Here is the generic code, as I deleted a couple of columns
+ALTER TABLE table_name
+DROP COLUMN column_name;
 
-4. Changed the unit_price by dividing 1000,000
+5. Changed the unit_price by dividing 1000,000
 Code:
 UPDATE analyticis
 SET unit_cost = unit_cost / 1000000;
 
-5. Checked the ‘total_ordered’ column to see if there is any negative number or not.
+6. Checked the ‘total_ordered’ column to see if there is any negative number or not.
 SELECT total_ordered
 FROM sales_by_sku
 WHERE total_ordered < 0;
 
-6. Removing Specific Type of Product Data
+7. Removing Specific Type of Product Data
 
 EX: from product_SKU, Starting with 918 type data has been deleted 
 
