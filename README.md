@@ -1,17 +1,46 @@
 # Final-Project-Transforming-and-Analyzing-Data-with-SQL
 
 ## Project/Goals
-(fill in your description and goals here)
+
+Analyzing E-commerce Data
+Extracting insights and patterns
+Identifying trends and opportunities
 
 ## Process
 ### (your step 1)
 ### (your step 2)
 
 ## Results
-(fill in what you discovered this data could tell you and how you used the data to answer those questions)
+During the analysis of the e-commerce data, several insights were gained and questions were answered:
 
+1. The top-selling product was found to be from the United States, indicating a high demand for this particular product in that region.
+2. Water bottles were identified as the most frequently ordered product, suggesting a strong preference for this item among customers.
+3. The highest level of transaction revenues was primarily generated from North America (Specially, the United States), while there were no significant 
+   transactions from Asia.
+4. Additionally, it was discovered that the city of Chicago, United States, ranked first in terms of the average number of orders placed, highlighting a high level 
+   of customer engagement and purchasing activity in that city.
+5. The most popular product category was Men's T-Shirts in the Apparel segment, indicating a strong demand for this type of product.
+ 
 ## Challenges 
-(discuss challenges you faced in the project)
 
+1. Dataset size: Analyzing the e-commerce data presented challenges due to the large size of the dataset. Dealing with a vast amount of data required efficient handling and processing techniques.
+
+2. Data cleaning: Cleaning the dataset was a significant challenge. It involved identifying and handling missing values, removing irrelevant data, and ensuring data consistency and accuracy.
+
+3. Identifying keys: Determining the primary and foreign keys in the dataset required careful examination and understanding of the data relationships. It involved analyzing the data structure and establishing connections between different tables.
+
+4. Performance issues: Some queries faced performance issues due to the large dataset. Optimizing the queries and implementing efficient indexing strategies helped mitigate these challenges.
+
+5. Understanding the dataset: The complexity of the dataset made it challenging to comprehend the data and its context. It required a thorough understanding of the e-commerce domain and the specific data attributes.
+
+Overall, these challenges highlighted the importance of data management, data cleaning, performance optimization, and domain knowledge in effectively analyzing e-commerce data.
 ## Future Goals
-(what would you do if you had more time?)
+Future Goals:
+
+1. Create a new table with clean and organized data.
+2. Develop a systematic and accurate approach to data cleaning.
+3. Enhance the quality assurance process at every step.
+4. Dive deeper into the dataset to uncover valuable insights.
+5. Continuously improve data analysis skills and optimize processes.
+
+By focusing on these future goals, I aim to improve data management, ensure data quality, and extract deeper insights from the dataset.
